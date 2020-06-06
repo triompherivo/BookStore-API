@@ -4,6 +4,31 @@
         <name>BookStore-API</name>
     </assembly>
     <members>
+        <member name="T:BookStore_API.Controllers.AuthorsController">
+            <summary>Endpoint used to interact with the authors i nthe Book store's database.
+            Implements the <see cref="T:Microsoft.AspNetCore.Mvc.ControllerBase"/></summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthors">
+            <summary>Gets the authors.</summary>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthor(System.Int32)">
+            <summary>Gets the author.</summary>
+            <param name="id">The identifier.</param>
+            <returns>An Author required</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.Create(BookStore_API.DTOs.AuthorCreateDTO)">
+            <summary>Creates the specified author dto.</summary>
+            <param name="authorDTO">The author dto.</param>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.AuthorsController.Update(System.Int32,BookStore_API.DTOs.AuthorUpdateDTO)">
+            <summary>Updates the specified identifier.</summary>
+            <param name="id">The identifier.</param>
+            <param name="authorDTO">The author dto.</param>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
         <member name="T:BookStore_API.Controllers.HomeController">
             <summary>
             This is a Test API Controller.
