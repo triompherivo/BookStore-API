@@ -1,0 +1,46 @@
+2020-06-07 19:01:14.3928 INFO Books - GetBooks: Attempted Call
+2020-06-07 19:01:42.1280 ERROR Books - GetBooks: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) - System.ComponentModel.Win32Exception (2): Le fichier spécifié est introuvable.
+2020-06-07 19:04:04.1324 INFO Books - GetBooks: Attempted Call
+2020-06-07 19:04:05.1536 INFO Books - GetBooks: Successfull
+2020-06-07 19:04:21.6120 INFO Books - GetBook: Attempted Call for id: 1
+2020-06-07 19:04:22.3126 WARN Books - GetBook: Failed to retrieve record with   id: 1
+2020-06-07 19:37:39.6281 INFO Books - Create : Create Attempted
+2020-06-07 19:38:12.2403 ERROR Books - Create: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) - System.ComponentModel.Win32Exception (2): Le fichier spécifié est introuvable.
+2020-06-07 19:38:40.9832 INFO Books - Create : Create Attempted
+2020-06-07 19:38:45.4691 INFO Books - Create: Creation was successful
+2020-06-07 19:39:12.7212 INFO Books - GetBooks: Attempted Call
+2020-06-07 19:39:14.5748 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-06-07 19:41:39.0959 INFO Books - GetBooks: Attempted Call
+2020-06-07 19:41:44.4080 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-06-07 19:45:48.8698 INFO Books - Create : Create Attempted
+2020-06-07 19:45:57.8913 INFO Books - Create: Creation was successful
+2020-06-07 19:46:19.3238 INFO Books - GetBooks: Attempted Call
+2020-06-07 19:46:23.3482 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-06-07 19:55:19.8146 INFO Books - GetBooks: Attempted Call
+2020-06-07 19:55:25.5192 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-06-07 19:59:41.3160 INFO Books - Create : Create Attempted
+2020-06-07 19:59:57.2117 INFO Books - Create: Creation was successful
+2020-06-07 20:00:15.8101 INFO Books - GetBooks: Attempted Call
+2020-06-07 20:00:21.9014 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-06-07 20:17:25.7983 INFO Books - Create : Create Attempted
+2020-06-07 20:17:34.1253 INFO Books - Create: Creation was successful
+2020-06-07 20:18:00.5301 INFO Books - GetBooks: Attempted Call
+2020-06-07 20:18:03.8763 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Int32'. - 
+2020-06-07 21:09:57.2218 INFO Books - GetBooks: Attempted Call
+2020-06-07 21:09:59.4474 ERROR Books - GetBooks: Unable to cast object of type 'System.Double' to type 'System.Single'. - 
+2020-06-07 21:17:41.9827 INFO Books - Create : Create Attempted
+2020-06-07 21:17:46.5635 INFO Books - Create: Creation was successful
+2020-06-07 21:17:59.7955 INFO Books - GetBooks: Attempted Call
+2020-06-07 21:18:01.1153 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Single'. - 
+2020-06-07 21:18:51.2508 INFO Books - GetBook: Attempted Call for id: 5
+2020-06-07 21:18:51.8849 ERROR Books - GetBook: Unable to cast object of type 'System.Decimal' to type 'System.Single'. - 
+2020-06-07 21:22:47.6896 INFO Books - GetBooks: Attempted Call
+2020-06-07 21:24:18.3832 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Single'. - 
+2020-06-07 21:31:10.6741 INFO Books - GetBooks: Attempted Call
+2020-06-07 21:31:23.8664 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-06-07 21:37:09.6105 INFO Books - GetBooks: Attempted Call
+2020-06-07 21:37:57.6284 ERROR Books - GetBooks: Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-06-07 21:45:16.2742 INFO Books - Create : Create Attempted
+2020-06-07 21:45:40.5894 INFO Books - Create: Creation was successful
+2020-06-07 21:45:59.3750 INFO Books - GetBooks: Attempted Call
+2020-06-07 21:46:03.9146 INFO Books - GetBooks: Successfull

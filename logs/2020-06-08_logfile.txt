@@ -1,0 +1,12 @@
+2020-06-08 19:20:18.9951 INFO Books - Create : Create Attempted
+2020-06-08 19:20:51.8909 INFO Books - Create: Creation was successful
+2020-06-08 19:21:59.8223 INFO Books - GetBooks: Attempted Call
+2020-06-08 19:22:00.9693 INFO Books - GetBooks: Successfull
+2020-06-08 19:23:43.6144 INFO Books - Update : Update Attempted on record with id: 7 
+2020-06-08 19:23:45.3904 INFO Books - Update: Update of record with id: 7  was successful
+2020-06-08 19:23:55.9635 INFO Books - GetBooks: Attempted Call
+2020-06-08 19:23:56.6787 INFO Books - GetBooks: Successfull
+2020-06-08 19:24:15.6892 INFO Books - Delete : delete Attempted on record with id: 6 
+2020-06-08 19:24:16.2393 INFO Books - Delete: Delete of record with id: 6  was successful
+2020-06-08 19:24:32.8738 INFO Books - GetBooks: Attempted Call
+2020-06-08 19:24:33.2743 INFO Books - GetBooks: Successfull

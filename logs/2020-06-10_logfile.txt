@@ -1,0 +1,48 @@
+2020-06-10 19:00:07.7195 INFO Users - Login: Login attempt from user admin 
+2020-06-10 19:00:11.0213 INFO Users - Login: admin Successfully authenticated
+2020-06-10 19:06:43.2879 INFO Attempted Get All Authors 
+2020-06-10 19:06:44.7774 INFO Successfully got all authors
+2020-06-10 19:07:11.6140 INFO Attempted Get Author with id: 2
+2020-06-10 19:07:11.7223 INFO Successfully got Author id : 2
+2020-06-10 19:08:45.4194 INFO Users - Login: Login attempt from user admin 
+2020-06-10 19:08:47.6633 INFO Users - Login: admin Successfully authenticated
+2020-06-10 19:16:54.6325 INFO Attempted Get All Authors 
+2020-06-10 19:16:55.0045 INFO Successfully got all authors
+2020-06-10 19:18:03.1437 INFO Attempted Get All Authors 
+2020-06-10 19:18:03.1995 INFO Successfully got all authors
+2020-06-10 19:20:31.3423 INFO Users - Login: Login attempt from user admin 
+2020-06-10 19:20:31.8050 INFO Users - Login: admin Successfully authenticated
+2020-06-10 19:30:19.2594 INFO Attempted Get All Authors 
+2020-06-10 19:30:21.9432 INFO Successfully got all authors
+2020-06-10 19:37:16.0869 INFO Attempted Get All Authors 
+2020-06-10 19:37:16.5382 INFO Successfully got all authors
+2020-06-10 19:38:56.5466 INFO Users - Login: Login attempt from user admin 
+2020-06-10 19:38:57.3384 INFO Users - Login: admin Successfully authenticated
+2020-06-10 19:41:38.8891 INFO Attempted Get All Authors 
+2020-06-10 19:41:38.9508 INFO Successfully got all authors
+2020-06-10 19:54:03.7950 INFO Attempted Get All Authors 
+2020-06-10 19:54:03.9970 INFO Successfully got all authors
+2020-06-10 19:54:33.1623 INFO Users - Login: Login attempt from user admin 
+2020-06-10 19:54:33.4390 INFO Users - Login: admin Successfully authenticated
+2020-06-10 19:54:35.9222 INFO Users - Login: Login attempt from user admin 
+2020-06-10 19:54:36.0522 INFO Users - Login: admin Successfully authenticated
+2020-06-10 19:59:52.2437 INFO Attempted Get All Authors 
+2020-06-10 19:59:52.7259 INFO Successfully got all authors
+2020-06-10 20:01:49.4118 INFO Attempted Get All Authors 
+2020-06-10 20:01:49.6497 INFO Successfully got all authors
+2020-06-10 20:04:18.5523 INFO Attempted Get All Authors 
+2020-06-10 20:04:18.8024 INFO Successfully got all authors
+2020-06-10 20:09:41.7267 INFO Users - Login: Login attempt from user admin 
+2020-06-10 20:09:42.6254 INFO Users - Login: admin Successfully authenticated
+2020-06-10 20:13:26.1235 INFO Attempted Get All Authors 
+2020-06-10 20:13:28.1713 INFO Successfully got all authors
+2020-06-10 20:19:50.9810 INFO Users - Login: Login attempt from user admin 
+2020-06-10 20:19:51.8574 INFO Users - Login: admin Successfully authenticated
+2020-06-10 20:28:25.7197 INFO Users - Login: Login attempt from user admin 
+2020-06-10 20:28:36.3510 INFO Users - Login: admin Successfully authenticated
+2020-06-10 21:22:02.8520 INFO Attempted Get All Authors 
+2020-06-10 21:22:04.7023 INFO Successfully got all authors
+2020-06-10 21:23:50.8421 INFO Users - Login: Login attempt from user customer1 
+2020-06-10 21:23:53.2915 INFO Users - Login: customer1 Successfully authenticated
+2020-06-10 21:29:28.2658 INFO Attempted Get All Authors 
+2020-06-10 21:29:29.4889 INFO Successfully got all authors

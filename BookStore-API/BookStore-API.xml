@@ -12,6 +12,7 @@
         <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthors">
             <summary>Gets the authors.</summary>
             <returns>Task&lt;IActionResult&gt;.</returns>
+            
         </member>
         <member name="M:BookStore_API.Controllers.AuthorsController.GetAuthor(System.Int32)">
             <summary>Gets the author.</summary>
@@ -28,6 +29,75 @@
             <param name="id">The identifier.</param>
             <param name="authorDTO">The author dto.</param>
             <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="T:BookStore_API.Controllers.BooksController">
+            <summary>
+            Class BooksController.
+            Implements the <see cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="F:BookStore_API.Controllers.BooksController._repository">
+            <summary>
+            The repository
+            </summary>
+        </member>
+        <member name="F:BookStore_API.Controllers.BooksController._logger">
+            <summary>
+            The logger
+            </summary>
+        </member>
+        <member name="F:BookStore_API.Controllers.BooksController._mapper">
+            <summary>
+            The mapper
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.#ctor(BookStore_API.Contracts.IBookRepository,BookStore_API.Contracts.ILoggerService,AutoMapper.IMapper)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BookStore_API.Controllers.BooksController" /> class.
+            </summary>
+            <param name="repository">The repository.</param>
+            <param name="logger">The logger.</param>
+            <param name="mapper">The mapper.</param>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.GetBooks">
+            <summary>
+            Gets the books.
+            </summary>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.GetBook(System.Int32)">
+            <summary>
+            Gets the book.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.Create(BookStore_API.DTOs.BookCreateDTO)">
+            <summary>
+            Creates the specified book dto.
+            </summary>
+            <param name="bookDTO">The book dto.</param>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.Update(System.Int32,BookStore_API.DTOs.BookUpdateDTO)">
+            <summary>Updates the specified identifier.</summary>
+            <param name="id">The identifier.</param>
+            <param name="bookDTO">The book dto.</param>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.GetControllerActionNames">
+            <summary>
+            Gets the controller action names.
+            </summary>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.BooksController.InternalError(System.String)">
+            <summary>
+            Internals the error.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>ObjectResult.</returns>
         </member>
         <member name="T:BookStore_API.Controllers.HomeController">
             <summary>
@@ -67,6 +137,120 @@
             Deletes the specified identifier.
             </summary>
             <param name="id">The identifier.</param>
+        </member>
+        <member name="T:BookStore_API.Controllers.UsersController">
+            <summary>
+            Class UsersController.
+            Implements the <see cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+            </summary>
+            <seealso cref="T:Microsoft.AspNetCore.Mvc.ControllerBase" />
+        </member>
+        <member name="F:BookStore_API.Controllers.UsersController._signInManager">
+            <summary>
+            The sign in manager
+            </summary>
+        </member>
+        <member name="F:BookStore_API.Controllers.UsersController._userManager">
+            <summary>
+            The user manager
+            </summary>
+        </member>
+        <member name="F:BookStore_API.Controllers.UsersController._logger">
+            <summary>
+            The logger
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Controllers.UsersController.#ctor(Microsoft.AspNetCore.Identity.SignInManager{Microsoft.AspNetCore.Identity.IdentityUser},Microsoft.AspNetCore.Identity.UserManager{Microsoft.AspNetCore.Identity.IdentityUser},BookStore_API.Contracts.ILoggerService,Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BookStore_API.Controllers.UsersController"/> class.
+            </summary>
+            <param name="signInManager">The sign in manager.</param>
+            <param name="userManager">The user manager.</param>
+        </member>
+        <member name="M:BookStore_API.Controllers.UsersController.Login(BookStore_API.DTOs.UserDTO)">
+            <summary>
+            Logins the specified user dto.
+            </summary>
+            <param name="userDTO">The user dto.</param>
+            <returns>Task&lt;IActionResult&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.UsersController.GetControllerActionNames">
+            <summary>
+            Gets the controller action names.
+            </summary>
+            <returns>System.String.</returns>
+        </member>
+        <member name="M:BookStore_API.Controllers.UsersController.InternalError(System.String)">
+            <summary>
+            Internals the error.
+            </summary>
+            <param name="message">The message.</param>
+            <returns>ObjectResult.</returns>
+        </member>
+        <member name="T:BookStore_API.Services.BookRepository">
+            <summary>
+            Class BookRepository.
+            Implements the <see cref="T:BookStore_API.Contracts.IBookRepository" />
+            </summary>
+            <seealso cref="T:BookStore_API.Contracts.IBookRepository" />
+        </member>
+        <member name="F:BookStore_API.Services.BookRepository._db">
+            <summary>
+            The database
+            </summary>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.#ctor(BookStore_API.Data.ApplicationDbContext)">
+            <summary>
+            Initializes a new instance of the <see cref="T:BookStore_API.Services.BookRepository"/> class.
+            </summary>
+            <param name="db">The database.</param>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.Create(BookStore_API.Data.Book)">
+            <summary>
+            Creates the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.Delete(BookStore_API.Data.Book)">
+            <summary>
+            Deletes the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.FindAll">
+            <summary>
+            Finds all.
+            </summary>
+            <returns>Task&lt;List&lt;Book&gt;&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.FindById(System.Int32)">
+            <summary>
+            Finds the by identifier.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns>Task&lt;Book&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.IsExists(System.Int32)">
+            <summary>
+            Determines whether the specified identifier is exists.
+            </summary>
+            <param name="id">The identifier.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.Save">
+            <summary>
+            Saves this instance.
+            </summary>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
+        </member>
+        <member name="M:BookStore_API.Services.BookRepository.Update(BookStore_API.Data.Book)">
+            <summary>
+            Updates the specified entity.
+            </summary>
+            <param name="entity">The entity.</param>
+            <returns>Task&lt;System.Boolean&gt;.</returns>
         </member>
     </members>
 </doc>

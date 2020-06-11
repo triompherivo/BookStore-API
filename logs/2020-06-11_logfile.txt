@@ -1,0 +1,8 @@
+2020-06-11 18:05:28.5333 INFO Attempted Get All Authors 
+2020-06-11 18:05:28.8430 INFO Successfully got all authors
+2020-06-11 18:06:24.1180 INFO Users - Login: Login attempt from user admin 
+2020-06-11 18:06:24.9341 INFO Users - Login: admin Successfully authenticated
+2020-06-11 18:07:06.5269 WARN Author submission Attempted
+2020-06-11 18:07:07.0717 INFO Author created
+2020-06-11 18:07:27.9922 INFO Attempted Get All Authors 
+2020-06-11 18:07:28.0508 INFO Successfully got all authors
