@@ -67,20 +67,55 @@ namespace BookStore_API.Controllers
             _logger = logger;
             _config = config;
         }
+        /// <summary>Registers the specified user dto.</summary>
+        /// <param name="userDTO">The user dto.</param>
+        /// <returns>Task&lt;IActionResult&gt;.</returns>
+        [Route("register")]
+        [AllowAnonymous]
+        [HttpPost]
+        public async Task<IActionResult> Register([FromBody] UserDTO userDTO)
+        {
+            var location = GetControllerActionNames();
+            try
+            {
+                var username = userDTO.EmailAddress;
+                var password = userDTO.Password;
+                _logger.LogInfo($"{location}: Registration attempt for {username} ");
+                var user = new IdentityUser { Email = username, UserName = username };
+                var result = await _userManager.CreateAsync(user, password);
+                if (!result.Succeeded)
+                {
+                    
+                    foreach (var error in result.Errors)
+                    {
+                        _logger.LogError($"{location}:  {error.Code} {error.Description}");
+                    }
+                    return InternalError($"{location}:  {username}  user Registration Attempt failed");
+                }
+                return Ok(new { result.Succeeded });
+            }
+            catch (Exception ex)
+            {
+
+                return InternalError($"{location}: {ex.Message} - {ex.InnerException}");
+            }
+
+        }
 
         /// <summary>
         /// Logins the specified user dto.
         /// </summary>
         /// <param name="userDTO">The user dto.</param>
         /// <returns>Task&lt;IActionResult&gt;.</returns>
+        [Route("login")]
         [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login([FromBody] UserDTO userDTO)
         {
-            var location = GetControllerActionNames();
+            var location = GetControllerActionNames(); 
             try
             {
-                var username = userDTO.Username;
+                var username = userDTO.EmailAddress;
                 var password = userDTO.Password;
                 _logger.LogInfo($"{location}: Login attempt from user {username} ");
                 var result = await _signInManager.PasswordSignInAsync(username, password, false, false);
@@ -89,6 +124,7 @@ namespace BookStore_API.Controllers
                 {
                     _logger.LogInfo($"{location}: {username} Successfully authenticated");
                     var user = await _userManager.FindByNameAsync(username);
+                    
                     var tokenString = await GenerateJSONWebToken(user);
                     return Ok(new { token = tokenString });
                 }
@@ -118,7 +154,7 @@ namespace BookStore_API.Controllers
                 , _config["Jwt:Issuer"],
                 claims,
                 null,
-                expires: DateTime.Now.AddMinutes(5),
+                expires: DateTime.Now.AddHours(5),
                 signingCredentials: credentials
                 );
             return new JwtSecurityTokenHandler().WriteToken(token);

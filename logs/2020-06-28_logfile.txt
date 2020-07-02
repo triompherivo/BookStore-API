@@ -1,0 +1,11 @@
+2020-06-28 09:36:09.1450 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-28 09:36:10.0370 INFO Users - Login: admin@bookstore.com Successfully authenticated
+2020-06-28 09:41:38.3757 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-28 09:41:39.1393 INFO Users - Login: admin@bookstore.com Successfully authenticated
+2020-06-28 09:45:49.7341 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-28 09:45:50.2662 INFO Users - Login: admin@bookstore.com Successfully authenticated
+2020-06-28 09:46:35.5896 INFO Users - Register: Registration attempt for administrator@bookstore.com 
+2020-06-28 09:46:57.0347 INFO Users - Login: Login attempt from user administrator@bookstore.com 
+2020-06-28 09:46:57.1828 INFO Users - Login: administrator@bookstore.com Successfully authenticated
+2020-06-28 10:02:56.7909 INFO Users - Login: Login attempt from user administrator@bookstore.com 
+2020-06-28 10:02:58.8262 INFO Users - Login: administrator@bookstore.com Successfully authenticated

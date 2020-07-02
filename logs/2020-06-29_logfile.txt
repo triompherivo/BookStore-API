@@ -1,0 +1,2 @@
+2020-06-29 19:33:32.2660 INFO Users - Login: Login attempt from user administrator@bookstore.com 
+2020-06-29 19:33:33.3022 INFO Users - Login: administrator@bookstore.com Successfully authenticated

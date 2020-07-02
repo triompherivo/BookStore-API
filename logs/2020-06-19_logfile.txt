@@ -1,0 +1,5 @@
+2020-06-19 16:21:05.3011 INFO Users - Register: Registration attempt for yoko 
+2020-06-19 16:24:55.1771 INFO Users - Register: Registration attempt for yoko 
+2020-06-19 16:24:55.5246 ERROR Users - Register:  DuplicateUserName User name 'yoko' is already taken.
+2020-06-19 16:24:55.5246 ERROR Users - Register:  yoko  user Registration Attempt failed
+2020-06-19 16:29:32.5678 INFO Users - Register: Registration attempt for euler 

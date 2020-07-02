@@ -1,0 +1,11 @@
+2020-06-18 18:25:14.8275 INFO Users - Login: Login attempt from user admin@bootstore.com 
+2020-06-18 18:28:22.8637 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-18 18:28:23.1686 INFO Users - Login: admin@bookstore.com Not authenticated
+2020-06-18 18:32:18.5351 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-18 19:01:10.5068 INFO Users - Login: Login attempt from user admin 
+2020-06-18 19:01:11.7875 INFO Users - Login: admin Successfully authenticated
+2020-06-18 21:37:27.4711 INFO Users - Register: Registration attempt for rota 
+2020-06-18 21:40:42.9235 INFO Users - Login: Login attempt from user admin 
+2020-06-18 21:40:43.5548 INFO Users - Login: admin Successfully authenticated
+2020-06-18 21:41:24.6895 INFO Attempted Get All Authors 
+2020-06-18 21:41:24.9612 INFO Successfully got all authors

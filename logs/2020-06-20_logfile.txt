@@ -1,0 +1,38 @@
+2020-06-20 11:10:04.0050 INFO Users - Login: Login attempt from user admin 
+2020-06-20 11:10:04.3203 INFO Users - Login: admin Successfully authenticated
+2020-06-20 11:12:45.3933 INFO Users - Login: Login attempt from user admin 
+2020-06-20 11:12:45.7103 INFO Users - Login: admin Successfully authenticated
+2020-06-20 11:23:33.9902 INFO Users - Login: Login attempt from user customer1 
+2020-06-20 11:23:34.3961 INFO Users - Login: customer1 Successfully authenticated
+2020-06-20 11:24:50.4422 INFO Users - Login: Login attempt from user admin 
+2020-06-20 11:24:50.5915 INFO Users - Login: admin Successfully authenticated
+2020-06-20 11:41:58.1138 INFO Users - Login: Login attempt from user admin 
+2020-06-20 11:41:58.5440 INFO Users - Login: admin Successfully authenticated
+2020-06-20 11:48:35.1763 INFO Users - Login: Login attempt from user admin 
+2020-06-20 11:49:06.0325 INFO Users - Login: admin Successfully authenticated
+2020-06-20 11:50:27.4909 INFO Users - Login: Login attempt from user admin 
+2020-06-20 11:50:27.6605 INFO Users - Login: admin Successfully authenticated
+2020-06-20 12:03:54.6809 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 12:03:54.7867 INFO Users - Login: admin@bookstore.com Not authenticated
+2020-06-20 12:04:10.6460 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 12:04:10.6939 INFO Users - Login: admin@bookstore.com Not authenticated
+2020-06-20 12:07:42.9598 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 12:07:43.4368 INFO Users - Login: admin@bookstore.com Successfully authenticated
+2020-06-20 12:08:11.9627 INFO Users - Login: Login attempt from user customer1@bookstore.com 
+2020-06-20 12:08:12.0779 INFO Users - Login: customer1@bookstore.com Not authenticated
+2020-06-20 12:08:31.3962 INFO Users - Login: Login attempt from user rota@bookstore.com 
+2020-06-20 12:08:31.5358 INFO Users - Login: rota@bookstore.com Not authenticated
+2020-06-20 12:08:34.6410 INFO Users - Login: Login attempt from user rota@bookstore.com 
+2020-06-20 12:08:34.7384 INFO Users - Login: rota@bookstore.com Not authenticated
+2020-06-20 12:08:47.0722 INFO Users - Login: Login attempt from user customer2@bookstore.com 
+2020-06-20 12:08:47.2773 INFO Users - Login: customer2@bookstore.com Not authenticated
+2020-06-20 12:08:53.5325 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 12:08:53.6991 INFO Users - Login: admin@bookstore.com Not authenticated
+2020-06-20 12:08:55.8677 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 12:08:56.0657 INFO Users - Login: admin@bookstore.com Not authenticated
+2020-06-20 20:55:06.1294 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 20:55:06.5122 INFO Users - Login: admin@bookstore.com Successfully authenticated
+2020-06-20 21:07:10.0761 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 21:07:10.3944 INFO Users - Login: admin@bookstore.com Not authenticated
+2020-06-20 21:07:25.0844 INFO Users - Login: Login attempt from user admin@bookstore.com 
+2020-06-20 21:07:46.4249 INFO Users - Login: admin@bookstore.com Successfully authenticated
